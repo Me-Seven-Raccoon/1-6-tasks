@@ -1,0 +1,29 @@
+.button {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+
+  &__burger {
+    background-image: url("../img/icons/burger.svg");
+  }
+
+  &__repair{
+    background-image: url("../img/icons/repair.svg");
+  }
+  &__search {
+    background-image: url("../img/icons/search.svg");
+    margin: 0 16px;
+  }
+  &__phone{
+    background-image: url("../img/icons/call.svg");
+  }
+  &__message{
+    background-image: url("../img/icons/chat.svg");
+  }
+  &__profile{
+    background-image: url("../img/icons/profile.svg");
+  }
+}

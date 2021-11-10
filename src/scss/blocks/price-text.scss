@@ -1,0 +1,24 @@
+.price-text {
+
+  &__conteiner{
+
+  }
+  &__head{
+    font-family: TTLakes-Regular;
+    font-size: 14px;
+    padding-left: 24px;
+    max-width: 420px;
+  }
+  &__button{
+    border: none;
+    background-color: snow;
+    font-size: 16px;
+    font-family: TTLakes-Medium;
+    text-align: left;
+    padding-left: 24px;
+    margin-bottom: 55px;
+  }
+  &__img{
+    vertical-align: middle;
+  }
+}

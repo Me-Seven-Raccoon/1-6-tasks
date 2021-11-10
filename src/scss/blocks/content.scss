@@ -1,0 +1,50 @@
+.content {
+
+  &__button {
+    display: flex;
+  }
+
+  &__button--show-text {
+    border: none;
+    background-color: #F8F8F8;
+    font-family: 'TTLakes-Medium';
+    font-size: 16px;
+  }
+
+  &__text {
+    margin-left: 16px;
+  }
+
+  &__text-on {
+    font-family: TTLakes-Regular;
+    font-size: 14px;
+  }
+
+  &__text-to {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
+
+  &__image {
+    margin-right: 16px;
+  }
+
+  &__pic {
+    width: 360px;
+    height: 260px;
+    border-radius: 10px;
+  }
+
+  @media (min-width: 1440px) {
+    &__pic {
+      width: 530px;
+      height: 383px;
+      border-radius: 10px;
+    }
+  }
+}
+
+

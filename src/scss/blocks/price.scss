@@ -1,0 +1,109 @@
+.pricer{
+
+  &__header{
+    font-size: 16px;
+    color: #7E7E82;
+    font-family: TTLakes-Regular;
+  }
+  &__slaid-content{
+    border: 1px solid #EAEAEA;
+    max-width: 240px;
+    min-width: 240px;
+    height: 180px;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    padding: 16px 0 16px 16px;
+  }
+  &__slaid {
+    max-width: 0;
+    min-width: 240px;
+    padding: 0 40px 16px 0;
+
+  }
+  &__paginator{
+    display: flex;
+    justify-content: center;
+  }
+  &__navigation{
+    margin-left: 16px;
+  }
+  &__header {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px 0 16px 16px;
+    background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
+  }
+  &__header-text{
+    font-family: TTLakes-Regular;
+    font-size: 16px;
+  }
+  p{
+    margin: 0;
+  }
+  &__button{
+    cursor: pointer;
+    width: 120px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #FF3E79;
+    border: none;
+    color: white;
+    font-size: 12px;
+    margin: -5px 16px 0 0;
+  }
+  img{
+    vertical-align: middle;
+  }
+  &__slaid-flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__slaid--head{
+    font-size: 14px;
+    font-family: TTLakes-Regular;
+    color: #7E7E82;
+    padding-bottom: 4px;
+  }
+  &__slaid--text{
+    font-size: 14px;
+    font-family:TTLakes-Regular;
+    padding-bottom: 16px;
+  }
+  &__slaid--price-head{
+    font-size: 14px;
+    font-family: TTLakes-Regular;
+    color: #7E7E82;
+    padding-bottom: 4px;
+  }
+  &__slaid--price{
+    font-size: 14px;
+    font-family: TTLakes-Regular;
+    padding-bottom: 16px;
+  }
+  &__slaid--time{
+    font-size: 14px;
+    font-family: TTLakes-Regular;
+    color: #7E7E82;
+    padding-bottom: 4px;
+  }
+  &__slaid--time-min{
+    font-size: 14px;
+    font-family: TTLakes-Regular;
+  }
+  &__table{
+    display: none;
+  }
+  @media (min-width: 768px) {
+    &__paginator{
+      display: none;
+    }
+    &__swiper{
+      display: none;
+    }
+    &__table{
+      display: block;
+    }
+
+  }
+}

@@ -1,0 +1,46 @@
+@import "../fonts/styleFonts.css";
+@import "blocks/content";
+@import "blocks/header";
+@import "blocks/button";
+@import "blocks/menu";
+@import "blocks/combek";
+@import url('https://unpkg.com/swiper/swiper-bundle.min.css');
+@import "blocks/repaerBrend";
+@import "blocks/repaerApparats";
+@import "blocks/price";
+@import "blocks/price-text";
+@import "blocks/footer";
+@import "blocks/table";
+@import "blocks/popup-menu";
+@import "blocks/modal_feetback";
+@import "blocks/modal__phone";
+
+@font-face {
+  font-family: 'Comic';
+  src: url('../fonts/comic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  background-color: #F8F8F8;
+  padding: 0;
+  margin: 0;
+}
+
+
+@media (min-width:1440px ) {
+  body {
+    display: flex;
+  }
+  .container{
+    margin-left: 320px;
+  }
+}
+
+span.swiper-pagination-bullet{
+  background: #bababa;
+}
+span.swiper-pagination-bullet-active {
+  background: #B5B6BC;
+}
