@@ -959,6 +959,9 @@ menu {
   font-weight: normal;
   font-style: italic; }
 
+.scroll {
+  overflow: hidden; }
+
 body {
   background-color: #F8F8F8;
   padding: 0;
